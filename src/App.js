@@ -1,39 +1,19 @@
 import React from 'react';
-import { Jumbotron } from 'react-bootstrap';
+import './app.css';
 
 function App() {
   return (
-    <div
-      style={{
-        backgroundColor: 'white',
-        width: '80vw',
-        height: '60vh',
-        margin: 'auto',
-        marginTop: '100px',
-        padding: '20px',
-        borderRadius: '10px',
-        borderTop: '10px solid #68d391',
-        boxShadow:
-          '0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%)',
-      }}
-    >
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-        }}
-      >
-        <h3>
-          Question 1/<span style={{ fontSize: 'smaller' }}>14</span>
-        </h3>
+    <div className="container">
+      <div className="heading-container">
+        <h3>Question 1/14</h3>
         <h3>
           Score : <span>4</span>
         </h3>
       </div>
-      <div style={{ margin: '10px 0px' }}>
+      <div className="question">
         <h1 className="header">Welcome To React-Bootstrap</h1>
       </div>
-      <div style={{ marginTop: '30px' }}>
+      <div className="option-container">
         <div className="option">
           <div>
             <span>A</span>
