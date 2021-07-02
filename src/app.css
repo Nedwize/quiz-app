@@ -15,6 +15,10 @@
   justify-content: space-between;
 }
 
+.heading-container span {
+  color: #61b481;
+}
+
 .question {
   margin: 10px 0px;
 }

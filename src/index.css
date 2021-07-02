@@ -20,7 +20,7 @@ h3 {
   height: 40px;
   width: 100%;
   background-color: white;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   border: 1px solid #d7d6d8;
   cursor: pointer;
   transition: all 150ms;
@@ -29,7 +29,8 @@ h3 {
 }
 
 .option:hover {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 1px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .option div {
@@ -63,6 +64,7 @@ h3 {
   font-weight: 600;
   color: white;
   background-color: #070a39;
+  cursor: pointer;
 }
 
 code {
