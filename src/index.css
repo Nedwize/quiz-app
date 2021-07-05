@@ -67,6 +67,14 @@ h3 {
   cursor: pointer;
 }
 
+.select {
+  height: 1rem !important;
+  width: 1rem !important;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
